@@ -12,7 +12,7 @@ saida = ''
 
 function curtir(){
     curti = curti + 1
-    saida = `Curtida: ${curti} Paia demais: ${paiax}`
+    saida = `Like: ${curti} Deslike: ${paiax}`
     document.getElementById('result').innerText = saida
 }
 
