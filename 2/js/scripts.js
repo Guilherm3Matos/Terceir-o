@@ -6,6 +6,22 @@
 //
 // Scripts
 // 
+let curti = 0
+let paiax = 0
+saida = ''
+
+function curtir(){
+    curti = curti + 1
+    saida = `Curtida: ${curti} Paia demais: ${paiax}`
+    document.getElementById('result').innerText = saida
+}
+
+function paia(){
+    paiax = paiax + 1
+    saida = `Like: ${curti} Deslike: ${paiax}`
+    document.getElementById('result').innerText = saida
+}
+
 
 window.addEventListener('DOMContentLoaded', event => {
 
