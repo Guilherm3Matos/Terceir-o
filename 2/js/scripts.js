@@ -6,22 +6,71 @@
 //
 // Scripts
 // 
-let curti = 0
-let paiax = 0
+let likeprof = 0
+let deslikeprof = 0
+let venda = 0
+let likeE = 0
+let deslikeE = 0
+let likeAC = 0
+let deslikeAC = 0
+let likeBD = 0
+let deslikeBD = 0
 saida = ''
 
-function curtir(){
-    curti = curti + 1
-    saida = `Like: ${curti} Deslike: ${paiax}`
-    document.getElementById('result').innerText = saida
+function curtirprof(){
+    
+    likeprof = likeprof + 1
+    saida = `Like: ${likeprof} Deslike: ${deslikeprof}`
+    document.getElementById('resultprof').innerText = saida
 }
 
-function paia(){
-    paiax = paiax + 1
-    saida = `Like: ${curti} Deslike: ${paiax}`
-    document.getElementById('result').innerText = saida
+function paiaprof(){
+    
+    deslikeprof = deslikeprof + 1
+    saida = `Like: ${likeprof} Deslike: ${deslikeprof}`
+    document.getElementById('resultprof').innerText = saida
 }
 
+function curtir3e(){
+    likeE = likeE + 1
+    saida = `Like: ${likeE} Deslike: ${deslikeE}`
+    document.getElementById('result3e').innerText = saida
+}
+
+function paia3e(){
+    deslikeE = deslikeE + 1
+    saida = `Like: ${likeE} Deslike: ${deslikeE}`
+    document.getElementById('result3e').innerText = saida
+}
+function curtir3bd(){
+    likeBD = likeBD + 1
+    saida = `Like: ${likeBD} Deslike: ${deslikeBD}`
+    document.getElementById('result3bd').innerText = saida
+}
+
+function paia3bd(){
+    deslikeBD = deslikeBD + 1
+    saida = `Like: ${likeBD} Deslike: ${deslikeBD}`
+    document.getElementById('result3bd').innerText = saida
+}
+function curtir3ac(){
+    likeAC = likeAC + 1
+    saida = `Like: ${likeAC} Deslike: ${deslikeAC}`
+    document.getElementById('result3ac').innerText = saida
+}
+
+function paia3ac(){
+    deslikeAC = deslikeAC + 1
+    saida = `Like: ${likeAC} Deslike: ${deslikeAC}`
+    document.getElementById('result3ac').innerText = saida
+}
+
+function comprar(){
+    saida = ''
+    venda = venda + 1
+    saida = `Vendas: ${venda}`
+    document.getElementById('resultcomprar').innerText = saida
+}
 
 window.addEventListener('DOMContentLoaded', event => {
 
